@@ -17,10 +17,10 @@ function lol() {
 
 console.log(lol())
 
-let value = 4;
-let total = 80;
-function getPercent(value, total) {
-    let res = value * 100 / total;
+const value = 4;
+const total = 80;
+function getPercent(num1, num2) {
+    let res = num1 * 100 / num2;
     return res;
 }
 console.log(getPercent(value, total));
