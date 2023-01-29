@@ -1,6 +1,5 @@
 const num = 2;
 
-
 function lol() {
     let res = [];
     let numb = num;
@@ -13,8 +12,6 @@ function lol() {
     return res.join(' ');
 }
 
-// функция, которая возвращает процент числа value от значения total
-
 console.log(lol())
 
 const value = 4;
@@ -23,4 +20,4 @@ function getPercent(num1, num2) {
     let res = num1 * 100 / num2;
     return res;
 }
-console.log(getPercent(value, total));
+console.log(getPercent(value, total));// функция, которая возвращает процент числа value от значения total
