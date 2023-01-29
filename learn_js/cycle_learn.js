@@ -21,4 +21,5 @@ function getPercent(num1, num2) {
     return res;
 }
 console.log(getPercent(value, total));
+
 // функция, которая возвращает процент числа value от значения total
