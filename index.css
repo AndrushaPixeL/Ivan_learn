@@ -21,7 +21,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #8b8b8b;
+    background-color: #0f607c;
     color: #fff;
     padding: 20px;
     opacity: 0.9;
@@ -40,7 +40,7 @@ header nav a {
 
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 90px auto 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -111,15 +111,27 @@ section label {
 
 section input[type="text"],
 section input[type="email"] {
+    box-sizing:border-box;
     font-size: 18px;
     padding: 10px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #5fa8b9;
     border-radius: 5px;
 }
 
+section input[type="text"]:hover,
+section input[type="email"]:hover {
+    border: 1px solid #0eaaff;
+}
+
+section input[type="text"]:focus,
+section input[type="email"]:focus {
+    border: 1px solid #0c7bb6;
+    outline:none;
+}
+
 section input[type="submit"] {
-    background-color: #6d6d6d;
+    background-color: #0f607c;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -127,7 +139,6 @@ section input[type="submit"] {
     padding: 10px;
     border-radius: 5px;
     transition: all 0.2s;
-
 }
 
 .from_items {
@@ -136,7 +147,7 @@ section input[type="submit"] {
 }
 
 section input[type="submit"]:hover {
-    background-color: rgb(73, 73, 73);
+    background-color: #469cba;
     color: #dfdfdf;
 }
 
@@ -155,7 +166,7 @@ section input[type="submit"]:active {
 }
 
 footer {
-    background-color: #8b8b8b;
+    background-color: #174d60;
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
